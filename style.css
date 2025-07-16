@@ -299,6 +299,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5em;
     gap: 2em;
 }
 
@@ -313,7 +314,7 @@ img {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 1.5em;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding-top: 3rem;
@@ -369,8 +370,8 @@ img {
 @media screen and (max-width: 767px) {
     .quote figure { 
     position: absolute;
-    margin-top: 16px;
-    left: -1.5rem;
+    margin-top: 25px;
+    margin-left: -1.5rem;
     }
 }
 
@@ -379,8 +380,8 @@ img {
 
 .quote figure { 
     position: absolute;
-    left: 1rem;
-    top: 2em;
+    left: 1.5rem;
+    top: 30px;
     width: 25px;
 }
 
@@ -415,7 +416,7 @@ li {
 }
 
 footer {
-    margin-top: 15rem;
+    margin-top: 20rem;
     background-color: hsl(216, 53%, 9%);
     position: relative;
 }
@@ -425,7 +426,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 8em;
-    padding-bottom: 8em;
+    padding-bottom: 3em;
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -558,13 +559,63 @@ li a:active {
 
 .container {
     position: absolute; 
-    height: 300px;
+    height: 340px;
+    margin-top: -0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
     background-color: hsl(217, 28%, 15%);
-    top: -10rem;
-    border-radius: 5px;
+    top: -10rem; 
+    line-height: 1.5;
+    padding: 1em;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
 } 
+
+.container hgroup {
+    margin-top: 1rem;
+}
+
+.container hgroup p {
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.member form {
+    gap: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.member form input, button {
+    border: none;
+    outline: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 25px;
+}
+
+.member form button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(198, 60%, 50%);
+}
+
+.member form button:hover {
+    transition: all 0.4s;
+    background-color: hsl(198, 60%, 21%);
+}
+
+.member form button:active {
+    transition: all 0.4s;
+    background-color: hsl(198, 60%, 21%);
+}
+
 
 @media screen and (max-width: 880px) {
 
@@ -572,7 +623,7 @@ li a:active {
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-top: 14rem;
+    padding-top: 15rem;
     margin-left: 2.5rem;
     padding-bottom: 4em;
     }
@@ -615,10 +666,12 @@ li a:active {
 
 @media screen and (max-width: 768px) {
     .card:hover {
-    animation: zoom 1s;
+    animation: move 1s;
+}
 }
 
-@keyframes zoom {
+
+@keyframes move {
     0% {
         transform: translateY(0);
     }
@@ -628,6 +681,4 @@ li a:active {
     100% {
         transform: translateY(0);
     }
-}
-
 }
