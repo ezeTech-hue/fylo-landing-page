@@ -260,16 +260,11 @@ img {
     text-align: center;
     justify-content: center;
     align-content: center;
-    /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     background: url('./images/bg-curvy-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.image_2 {
-    padding: 0.5em;
 }
 
 .product {
@@ -297,7 +292,7 @@ img {
     text-decoration: none;
 }
 
-.flex_content2 {
+.flex_content1 {
     position: relative;
     padding: 2em;
     display: flex;
@@ -308,13 +303,13 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-.flex_content2 {
+.flex_content1 {
     flex-direction: row;
 }
 
 }
 
-.flex_content3 {
+.flex_content2 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -361,7 +356,7 @@ img {
 
 
 @media screen and (min-width: 768px) {
-    .flex_content3 {
+    .flex_content2 {
         display: flex;
         flex-direction: row;
         margin-left: 0;
@@ -557,7 +552,7 @@ li a:active {
 
 .social_icons i {
     border: 1px solid hsl(0, 0%, 100%);
-    padding: 6px;
+    padding: 7px;
     border-radius: 50%;
 }
 
