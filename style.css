@@ -369,8 +369,8 @@ img {
 @media screen and (max-width: 767px) {
     .quote figure { 
     position: absolute;
-    left: -1.5rem;
     margin-top: 16px;
+    left: -1.5rem;
     }
 }
 
@@ -379,7 +379,7 @@ img {
 
 .quote figure { 
     position: absolute;
-    margin-left: 1.5rem;
+    left: 1rem;
     top: 2em;
     width: 25px;
 }
