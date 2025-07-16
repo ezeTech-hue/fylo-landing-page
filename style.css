@@ -309,18 +309,18 @@ img {
 
 }
 
-.flex_content2 {
+.testimonials {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding-top: 3rem;
     padding-top: 3rem;
 } 
 
-.container {
+.card {
     position: relative;
     background-color: hsl(219, 30%, 18%);
     line-height: 1.5;
@@ -329,7 +329,7 @@ img {
     overflow: hidden;
 } 
 
-.container:hover {
+.card:hover {
     transition: all 0.5s;
     animation: zoom 0.5s;
 }
@@ -356,7 +356,7 @@ img {
 
 
 @media screen and (min-width: 768px) {
-    .flex_content2 {
+    .testimonials {
         display: flex;
         flex-direction: row;
         margin-left: 0;
@@ -369,8 +369,8 @@ img {
 @media screen and (max-width: 767px) {
     .quote figure { 
     position: absolute;
-    margin-top: 2em;
     left: -1.5rem;
+    margin-top: 16px;
     }
 }
 
@@ -426,8 +426,8 @@ footer {
     justify-content: space-between;
     padding-top: 8em;
     padding-bottom: 8em;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .fylo_content_description .inner {
@@ -556,7 +556,7 @@ li a:active {
     border-radius: 50%;
 }
 
-.box {
+.container {
     position: absolute; 
     height: 300px;
     margin-left: 1rem;
@@ -614,7 +614,7 @@ li a:active {
 
 
 @media screen and (max-width: 768px) {
-    .container:hover {
+    .card:hover {
     animation: zoom 1s;
 }
 
