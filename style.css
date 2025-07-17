@@ -132,6 +132,17 @@ img {
 
 }
 
+@media screen and (max-width: 320px) {
+    .product hgroup h1 {
+        font-weight: 500;
+    }
+    .illustration h1 {
+     font-weight: 500;
+     
+    }
+
+}
+
 
 @media screen and (max-width: 490px) {
     .logo figure {
