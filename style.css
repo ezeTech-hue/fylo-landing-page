@@ -520,7 +520,7 @@ li a:active {
 
 .social_icons {
     display: flex;
-    gap: 1rem;
+    gap: 1.25rem;
     margin-top: 5em;
     height: 0px;
 }
@@ -539,7 +539,7 @@ li a:active {
 }
 
 .social_icons a:nth-child(2) {
-     color: black;
+     color: hsl(176, 68%, 64%);
 }
 
 .social_icons a:hover:nth-child(2) {
@@ -557,6 +557,7 @@ li a:active {
     border-radius: 50%;
 }
 
+@media screen and (max-width: 767px) {
 .container {
     position: absolute; 
     height: 340px;
@@ -614,6 +615,129 @@ li a:active {
 .member form button:active {
     transition: all 0.4s;
     background-color: hsl(198, 60%, 21%);
+}
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+    position: absolute;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: -6.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 210px;
+     border-radius: 4px;
+} 
+
+.container hgroup {
+     margin-top: 1.5rem;
+}
+
+.container hgroup p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 0.5rem;
+}
+
+.member form {
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.member form input {
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+    padding-right: 11rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 25px;
+}
+
+.member form button {
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(198, 60%, 50%);
+}
+
+.member form button:hover {
+    transition: all 0.4s;
+    background-color: hsl(198, 60%, 21%);
+}
+
+.member form button:active {
+    transition: all 0.4s;
+    background-color: hsl(198, 60%, 21%);
+}
+
+}
+
+@media screen and (min-width: 881px) {
+    .footer_content {
+    display: flex;
+    position: relative;
+    padding-top: 11rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 4em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        height: 195px;
+    }
+    .member form input {
+    border: none;
+    outline: none;
+    margin-left: -3rem;
+    padding-left: 2rem;
+    padding-right: 16rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 25px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .container hgroup p {
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+    }
+    .member form input {
+    border: none;
+    outline: none;
+    margin-left: -3rem;
+    padding-left: 2rem;
+    padding-right: 16rem;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-radius: 25px;
+}
+
+.member form button {
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(198, 60%, 50%);
+}
 }
 
 
