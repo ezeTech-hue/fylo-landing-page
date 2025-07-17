@@ -339,6 +339,7 @@ img {
     padding: 1em;
     border-radius: 4px;
     overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 } 
 
 .card:hover {
@@ -583,6 +584,7 @@ li a:active {
     text-align: center;
     justify-content: center;
     overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 } 
 
 .container hgroup {
@@ -641,7 +643,8 @@ li a:active {
     margin-left: 4rem;
     margin-right: 4rem;
     height: 210px;
-     border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 } 
 
 .container hgroup {
@@ -708,6 +711,7 @@ li a:active {
 @media screen and (min-width: 1024px) {
     .container {
         height: 195px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     }
     .member form input {
     border: none;
