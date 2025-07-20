@@ -271,10 +271,7 @@ img {
     text-align: center;
     justify-content: center;
     align-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    background-image: url('./images/bg-curvy-mobile.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .product {
