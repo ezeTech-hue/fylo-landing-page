@@ -817,3 +817,16 @@ li a:active {
         transform: translateY(0);
     }
 }
+
+
+.foot .attribution {
+    text-align: center;
+    font-size: 12px;
+    background-color: black;
+}
+
+@media screen and (max-width: 425px) {
+    .foot .attribution {
+        font-size: 10px;
+    }
+}
