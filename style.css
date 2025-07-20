@@ -205,9 +205,9 @@ img {
     border: none;
     background-color: hsl(198, 60%, 50%);
     color: hsl(0, 0%, 100%);
-    margin-top: 1rem;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    margin-top: 1.5rem;
+    padding-top: 11px;
+    padding-bottom: 11px;
     padding-left: 4em;
     padding-right: 4em;
     font-size: 16px;
