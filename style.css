@@ -822,7 +822,6 @@ li a:active {
 .foot .attribution {
     text-align: center;
     font-size: 12px;
-    background-color: black;
 }
 
 @media screen and (max-width: 425px) {
